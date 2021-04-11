@@ -15,6 +15,7 @@ public class Car {
 		setModel(model);
 		setBrand(brand);
 	}
+	
 
 	public int getId() {
 		return id;

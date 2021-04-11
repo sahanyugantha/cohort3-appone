@@ -22,7 +22,7 @@ public class CarResource {
 	public String getCars() {
 		
 		CarDao carDao = new CarDao();
-		List<Car> cars = carDao.getFakeCarData();
+		List<Car> cars = carDao.getFakeCarDB();
 		
 		Gson gson = new Gson(); //We can use Gson/Jackson etc.
 		String jsonString = gson.toJson(cars);
@@ -32,9 +32,22 @@ public class CarResource {
 	
 	@GET
 	@Path("{id}")
-	@Produces(MediaType.TEXT_PLAIN)
+	@Produces(MediaType.APPLICATION_JSON)
 	public String getACar(@PathParam("id") int id) {
-		return "Car with id "+id+" information will be here";
+		
+		CarDao carDao = new CarDao();
+		List<Car> cars = carDao.getFakeCarDB();
+		
+		Gson gson = new Gson();
+		
+		for (Car car : cars) {
+			if(car.getId() == id) {
+				String jsonString = gson.toJson(car);
+				return jsonString;
+			}
+		}
+		
+		return "{message: N/A}";
 	}
 	
 	@POST

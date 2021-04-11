@@ -8,7 +8,7 @@ import com.sahan.c3appone.model.Car;
 public class CarDao {
 	
 	//Sample DB
-	public List<Car> getFakeCarData(){
+	public List<Car> getFakeCarDB(){
 		List<Car> carList = new ArrayList<>();
 		
 		Car car = new Car(1, "Axio", "Toyota");

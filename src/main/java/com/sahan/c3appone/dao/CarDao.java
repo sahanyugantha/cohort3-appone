@@ -3,12 +3,21 @@ package com.sahan.c3appone.dao;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import com.sahan.c3appone.model.Car;
 
 public class CarDao {
 	
+	private Logger logger = LogManager.getLogger(CarDao.class);
+	
 	//Sample DB
 	public List<Car> getFakeCarDB(){
+		
+		logger.trace("Cars has been accessed");
+		
+		
 		List<Car> carList = new ArrayList<>();
 		
 		Car car = new Car(1, "Axio", "Toyota");

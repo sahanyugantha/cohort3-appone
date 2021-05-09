@@ -4,3 +4,6 @@
 10:01:03.305 [main] TRACE com.sahan.c3appone.dao.CarDao - Cars has been accessed
 10:03:32.567 [main] TRACE com.sahan.c3appone.dao.CarDao - Cars has been accessed
 10:04:19.294 [main] TRACE com.sahan.c3appone.dao.CarDao - Cars has been accessed
+11:52:48.928 [main] TRACE com.sahan.c3appone.dao.CarDao - Cars has been accessed
+11:53:08.299 [main] TRACE com.sahan.c3appone.dao.CarDao - Cars has been accessed
+11:57:51.684 [main] TRACE com.sahan.c3appone.dao.CarDao - Cars has been accessed

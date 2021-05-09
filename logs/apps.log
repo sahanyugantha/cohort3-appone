@@ -1,0 +1,59 @@
+15:22:15.637 [main] TRACE com.sahan.c3appone.dao.CarDao - Cars has been accessed
+15:23:28.323 [main] TRACE com.sahan.c3appone.dao.CarDao - Cars has been accessed
+15:24:00.109 [main] TRACE com.sahan.c3appone.dao.CarDao - Cars has been accessed
+15:33:46.165 [main] TRACE com.sahan.c3appone.dao.CarDao - Cars has been accessed
+15:34:17.771 [main] TRACE com.sahan.c3appone.dao.CarDao - Cars has been accessed
+15:34:57.677 [main] TRACE com.sahan.c3appone.dao.CarDao - Cars has been accessed
+15:35:34.863 [main] TRACE com.sahan.c3appone.dao.CarDao - Cars has been accessed
+15:40:32.202 [main] TRACE com.sahan.c3appone.dao.CarDao - Cars has been accessed
+15:42:13.692 [main] TRACE com.sahan.c3appone.dao.CarDao - Cars has been accessed
+15:48:59.035 [main] TRACE com.sahan.c3appone.dao.CarDao - Cars has been accessed
+15:49:22.922 [main] TRACE com.sahan.c3appone.dao.CarDao - Cars has been accessed
+15:51:41.216 [main] TRACE com.sahan.c3appone.dao.CarDao - Cars has been accessed
+15:51:41.222 [main] FATAL com.sahan.c3appone.dao.CarDao - THIS IS A FATAL LOG
+15:51:41.222 [main] ERROR com.sahan.c3appone.dao.CarDao - THIS IS A ERROR LOG
+15:51:41.222 [main] WARN  com.sahan.c3appone.dao.CarDao - THIS IS A WARN LOG
+15:51:41.222 [main] INFO  com.sahan.c3appone.dao.CarDao - THIS IS A INFO LOG
+15:51:41.222 [main] DEBUG com.sahan.c3appone.dao.CarDao - THIS IS A DEBUG LOG
+15:51:41.223 [main] TRACE com.sahan.c3appone.dao.CarDao - THIS IS A TRACE LOG
+15:52:01.732 [main] TRACE com.sahan.c3appone.dao.CarDao - Cars has been accessed
+15:52:01.736 [main] FATAL com.sahan.c3appone.dao.CarDao - THIS IS A FATAL LOG
+15:52:01.736 [main] ERROR com.sahan.c3appone.dao.CarDao - THIS IS A ERROR LOG
+15:52:01.736 [main] WARN  com.sahan.c3appone.dao.CarDao - THIS IS A WARN LOG
+15:52:01.737 [main] INFO  com.sahan.c3appone.dao.CarDao - THIS IS A INFO LOG
+15:52:01.737 [main] DEBUG com.sahan.c3appone.dao.CarDao - THIS IS A DEBUG LOG
+15:52:01.749 [main] TRACE com.sahan.c3appone.dao.CarDao - THIS IS A TRACE LOG
+15:53:59.282 [main] TRACE com.sahan.c3appone.dao.CarDao - Cars has been accessed
+15:53:59.288 [main] FATAL com.sahan.c3appone.dao.CarDao - THIS IS A FATAL LOG
+15:53:59.288 [main] ERROR com.sahan.c3appone.dao.CarDao - THIS IS A ERROR LOG
+15:53:59.288 [main] WARN  com.sahan.c3appone.dao.CarDao - THIS IS A WARN LOG
+15:53:59.288 [main] INFO  com.sahan.c3appone.dao.CarDao - THIS IS A INFO LOG
+15:53:59.288 [main] DEBUG com.sahan.c3appone.dao.CarDao - THIS IS A DEBUG LOG
+15:53:59.289 [main] TRACE com.sahan.c3appone.dao.CarDao - THIS IS A TRACE LOG
+15:54:10.694 [main] TRACE com.sahan.c3appone.dao.CarDao - Cars has been accessed
+15:54:10.699 [main] FATAL com.sahan.c3appone.dao.CarDao - THIS IS A FATAL LOG
+15:54:10.699 [main] ERROR com.sahan.c3appone.dao.CarDao - THIS IS A ERROR LOG
+15:54:10.699 [main] WARN  com.sahan.c3appone.dao.CarDao - THIS IS A WARN LOG
+15:54:10.700 [main] INFO  com.sahan.c3appone.dao.CarDao - THIS IS A INFO LOG
+15:54:10.700 [main] DEBUG com.sahan.c3appone.dao.CarDao - THIS IS A DEBUG LOG
+15:54:10.711 [main] TRACE com.sahan.c3appone.dao.CarDao - THIS IS A TRACE LOG
+15:54:45.637 [main] TRACE com.sahan.c3appone.dao.CarDao - Cars has been accessed
+15:54:45.642 [main] FATAL com.sahan.c3appone.dao.CarDao - THIS IS A FATAL LOG
+15:54:45.642 [main] ERROR com.sahan.c3appone.dao.CarDao - THIS IS A ERROR LOG
+15:54:45.642 [main] WARN  com.sahan.c3appone.dao.CarDao - THIS IS A WARN LOG
+15:54:45.642 [main] INFO  com.sahan.c3appone.dao.CarDao - THIS IS A INFO LOG
+15:54:45.642 [main] DEBUG com.sahan.c3appone.dao.CarDao - THIS IS A DEBUG LOG
+15:54:45.642 [main] TRACE com.sahan.c3appone.dao.CarDao - THIS IS A TRACE LOG
+15:54:51.323 [main] TRACE com.sahan.c3appone.dao.CarDao - Cars has been accessed
+15:54:51.327 [main] FATAL com.sahan.c3appone.dao.CarDao - THIS IS A FATAL LOG
+15:54:51.328 [main] ERROR com.sahan.c3appone.dao.CarDao - THIS IS A ERROR LOG
+15:54:51.328 [main] WARN  com.sahan.c3appone.dao.CarDao - THIS IS A WARN LOG
+15:54:51.328 [main] INFO  com.sahan.c3appone.dao.CarDao - THIS IS A INFO LOG
+15:54:51.328 [main] DEBUG com.sahan.c3appone.dao.CarDao - THIS IS A DEBUG LOG
+15:54:51.336 [main] TRACE com.sahan.c3appone.dao.CarDao - THIS IS A TRACE LOG
+09:44:30.831 [main] TRACE com.sahan.c3appone.dao.CarDao - Cars has been accessed
+09:44:54.133 [main] TRACE com.sahan.c3appone.dao.CarDao - Cars has been accessed
+10:00:34.066 [main] TRACE com.sahan.c3appone.dao.CarDao - Cars has been accessed
+10:01:03.305 [main] TRACE com.sahan.c3appone.dao.CarDao - Cars has been accessed
+10:03:32.567 [main] TRACE com.sahan.c3appone.dao.CarDao - Cars has been accessed
+10:04:19.294 [main] TRACE com.sahan.c3appone.dao.CarDao - Cars has been accessed

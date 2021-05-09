@@ -35,7 +35,7 @@ public class CarResource {
 	
 		
 		CarDao carDao = new CarDao();
-		List<Car> cars = carDao.getFakeCarDB();
+		List<Car> cars = carDao.getCarsFromDb();
 		
 		Gson gson = new Gson(); //We can use Gson/Jackson etc.
 		String jsonString = gson.toJson(cars);

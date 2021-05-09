@@ -4,7 +4,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.util.List;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import com.sahan.c3appone.dao.CarDao;
 import com.sahan.c3appone.model.Car;
@@ -14,7 +14,7 @@ public class CarTest {
 	//AAA approach
 	
 	//Arrange
-	int expected = 4;	
+	int expected = 3;	
 	//int actual = 0;
 	
 	//Act
@@ -28,6 +28,6 @@ public class CarTest {
 		assertEquals(expected, actual);
 		 
 	}
-	
+
 
 }

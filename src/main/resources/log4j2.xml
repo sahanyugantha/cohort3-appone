@@ -10,13 +10,22 @@
             <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
       </File>
       
-      <!-- TODO:Rolling File -->
+      <RollingFile name="RollingFile" fileName="applogs/app.log"
+                    filePattern="applogs/$${date:yyyy-MM}/app-%d{MM-dd-yyyy}-%i.log.gz">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy />
+                <SizeBasedTriggeringPolicy size="1KB"/>
+            </Policies>
+        </RollingFile>
+      
   </Appenders>
   
   <Loggers>
   
 	<Logger name="com.sahan.c3appone" level="trace" additivity="false">
           <AppenderRef ref="File"/>
+          <AppenderRef ref="RollingFile"/>
           <AppenderRef ref="Console"/>
 	</Logger>
 

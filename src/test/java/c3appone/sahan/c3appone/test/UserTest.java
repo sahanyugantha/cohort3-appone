@@ -4,7 +4,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 import org.junit.jupiter.api.Test;
-import org.junit.rules.ExpectedException;
 
 import com.sahan.c3appone.dao.UserDao;
 import com.sahan.c3appone.model.User;

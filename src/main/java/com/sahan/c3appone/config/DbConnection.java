@@ -12,9 +12,14 @@ import com.sahan.c3appone.dao.CarDao;
 public class DbConnection {
 	private static Logger logger = LogManager.getLogger(DbConnection.class);
 
-	private static final String DB_URL = "jdbc:mysql://localhost:3306/cardb";
-	private static final String USER = "root";
-	private static final String PASSWORD = "root";
+//	private static final String DB_URL = "jdbc:mysql://localhost:3306/cardb";
+//	private static final String USER = "root";
+//	private static final String PASSWORD = "root";
+	
+	//Heroku configs
+	private static final String DB_URL = "jdbc:mysql://us-cdbr-east-03.cleardb.com:3306/heroku_deda6a7c105921b";
+	private static final String USER = "b1726dd3e646ca";
+	private static final String PASSWORD = "c78da258";
 	
 	
 	private static DbConnection newInstance = null;

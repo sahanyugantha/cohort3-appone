@@ -25,6 +25,7 @@
 		<div class="row">
 			<div class="col-md-10 offset-md-1">
 				<center><h2>Welcome to Cohort 3 Official Website</h2></center>
+				<h4>We have studied CircleCI as well</h4>
 				
 				<table class="table">
 					<thead>
